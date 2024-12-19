@@ -1,0 +1,62 @@
+Sistema de Facturación para Restaurante
+
+Requisitos
+Python 3.6 o superior.
+Biblioteca Tkinter (incluida por defecto con Python).
+
+Este proyecto es una aplicación de escritorio desarrollada en Python utilizando Tkinter.
+Es un sistema de facturación para un restaurante que permite calcular el costo de comidas,
+bebidas y postres, generar recibos y realizar cálculos con una calculadora.
+
+Características:
+
+Selección de Productos:
+Los productos se seleccionan mediante casillas de verificación (checkboxes).
+Al seleccionar un producto, se habilita un cuadro de texto para x cantidad.
+
+Cálculo de Costos:
+Calcula el subtotal, impuestos (7%), y total.
+Muestra los costos detallados por categoría (comidas, bebidas, postres).
+
+Generación de Recibos:
+Genera un recibo con información del pedido, subtotal, impuestos y total.
+Permite guardar el recibo como un archivo de texto.
+
+Calculadora:
+Operaciones matemáticas básicas (suma, resta, multiplicación, división).
+
+Botones de Acciones:
+Total: Calcula los costos.
+Recibo: Genera un recibo.
+Guardar: Guarda el recibo en un archivo.
+Resetear: Reinicia todos los campos y selecciones.
+
+
+
+
+Cómo Ejecutar el programa:
+Ejecuta el archivo Python desde la cmd con el siguiente comando:
+python mi_restaurante.py
+o ejecuta el código desde un IDE al darle run
+
+Uso:
+Selecciona los productos deseados (comidas, bebidas y/o postres).
+Ingresa la cantidad correspondiente para cada producto.
+Haz clic en "Total" para calcular los costos.
+Si deseas generar un recibo, haz clic en "Recibo".
+Para guardar el recibo, haz clic en "Guardar".
+Para reiniciar el sistema, haz clic en "Resetear".
+
+notas:
+
+Los precios de los productos se pueden modificar en las siguientes listas:
+precios_comida = [1.32, 1.65, 2.31, 3.22, 1.22, 1.99, 2.05, 2.65]
+precios_bebida = [0.25, 0.99, 1.21, 1.54, 1.08, 1.10, 2.00, 1.58]
+precios_postres = [1.54, 1.68, 1.32, 1.97, 2.55, 2.14, 1.94, 1.74]
+
+Los nombres de los productos se encuentran en estas listas:
+lista_comidas = ['pollo', 'salmón', 'pescado', 'pizza', 'hamburguesa', 'filete', 'lasaña', 'langosta']
+lista_bebidas = ['refresco', 'agua', 'cerveza', 'vino', 'mezcal', 'jugo', 'malteada', 'agua de sabor']
+lista_postres = ['flan', 'pastel', 'fruta', 'natilla', 'dona', 'cheescake', 'chocolatin', 'hot cake']
+
+Este fue un gestor de restaurante simple para el simple fin de aprendizaje de esta libreria
